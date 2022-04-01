@@ -1,0 +1,2 @@
+#f5e9dd main bg
+#b88f71 font color

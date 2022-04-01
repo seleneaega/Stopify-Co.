@@ -1,0 +1,60 @@
+@font-face{
+    font-family: 'chijun';
+    src: url(font/chijun.ttf);
+}
+body{
+    background: #f5e9dd;
+    color: #b88f71;
+    margin: 0;
+    font-family: 'chijun';
+}
+.navbar{
+    background: #b88f71;
+    color: #f5e9dd;
+    font-size: 25px;
+}
+.navul{
+    margin: 0px;
+    list-style: none;
+    height: 65px;
+}
+.nav{
+    display: inline-block;
+    padding: 10px;
+}
+.title{
+    text-align: center;
+    font-size: 2em;
+}
+.edit-form{
+    text-align: left;
+
+}
+.class{
+    /* text-align: center; */
+    border: 2px solid #b88f71;
+    border-radius: 5px;
+    width: 300px;
+    padding: 40px;
+    margin: auto;
+    font-size: 25px;
+}
+.info-edit{
+    margin-left: auto;
+    margin-right: auto;
+}
+input[type="submit"]{
+    background: #b88f71;
+    color: #f5e9dd;
+    padding: 10px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    float: right;
+    font-family: 'chijun';
+    font-size: 20px;
+}
+input[type="submit"]:hover{
+    color: #b88f71;
+    background-color: #f5e9dd;
+}
